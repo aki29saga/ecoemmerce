@@ -1,0 +1,70 @@
+=== NEW CALLBACK ===
+2025-06-11 14:44:12
+GET: Array
+(
+    [status] => successful
+    [tx_ref] => CD-1749645805-2
+    [transaction_id] => 9417620
+)
+
+POST: Array
+(
+)
+
+Processing Flutterwave callback
+Flutterwave Verification: Array
+(
+    [status] => success
+    [message] => Transaction fetched successfully
+    [data] => Array
+        (
+            [id] => 9417620
+            [tx_ref] => CD-1749645805-2
+            [flw_ref] => FLW-MOCK-c26bdc38c96ec5e0ae63aae88cac42b8
+            [device_fingerprint] => N/A
+            [amount] => 344
+            [currency] => NGN
+            [charged_amount] => 344
+            [app_fee] => 4.82
+            [merchant_fee] => 0
+            [processor_response] => successful
+            [auth_model] => PIN
+            [ip] => 52.209.154.143
+            [narration] => CARD Transaction 
+            [status] => successful
+            [payment_type] => card
+            [created_at] => 2025-06-11T12:44:01.000Z
+            [account_id] => 1878496
+            [card] => Array
+                (
+                    [first_6digits] => 553188
+                    [last_4digits] => 2950
+                    [issuer] =>  CREDIT
+                    [country] => NIGERIA NG
+                    [type] => MASTERCARD
+                    [token] => flw-t1nf-8d65b0baf06480810925fd3284610427-m03k
+                    [expiry] => 09/32
+                )
+
+            [meta] => Array
+                (
+                    [__CheckoutInitAddress] => https://checkout-v2.dev-flutterwave.com/v3/hosted/pay
+                    [user_id] => 2
+                    [cart_items] => {"2":"1"}
+                )
+
+            [amount_settled] => 338.81
+            [customer] => Array
+                (
+                    [id] => 3310172
+                    [name] => Mayor's awards
+                    [phone_number] => N/A
+                    [email] => ravesb_078976c936e04556676b_akimshittu41@gmail.com
+                    [created_at] => 2025-06-11T12:44:01.000Z
+                )
+
+        )
+
+)
+
+Processing payment for CD-1749645805-2

@@ -1,0 +1,57 @@
+=== NEW PAYMENT REQUEST ===
+2025-06-11 14:43:29
+Session: Array
+(
+    [user_id] => 2
+    [username] => Akim Shittu
+    [user_type] => customer
+    [cart] => Array
+        (
+            [2] => 1
+        )
+
+    [email] => akimshittu41@gmail.com
+    [payment_method] => flutterwave
+    [tx_ref] => CD-1749645805-2
+    [checkout_total] => 344
+    [payment_error] => Failed to initialize Flutterwave payment: Unknown error
+)
+
+Flutterwave Request: Array
+(
+    [tx_ref] => CD-1749645805-2
+    [amount] => 344
+    [currency] => NGN
+    [payment_options] => card,account,ussd
+    [redirect_url] => https://localhost/crazydej1/payment_callback.php
+    [customer] => Array
+        (
+            [email] => akimshittu41@gmail.com
+            [name] => Akim Shittu
+        )
+
+    [customizations] => Array
+        (
+            [title] => CrazyDej Products
+            [description] => Payment for items in cart
+        )
+
+    [meta] => Array
+        (
+            [user_id] => 2
+            [cart_items] => {"2":"1"}
+        )
+
+)
+
+Flutterwave Response: Array
+(
+    [status] => success
+    [message] => Hosted Link
+    [data] => Array
+        (
+            [link] => https://checkout-v2.dev-flutterwave.com/v3/hosted/pay/b74107ee37f84a9c4323
+        )
+
+)
+

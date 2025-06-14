@@ -1,0 +1,2 @@
+2025-06-11 14:44:13 - DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_name' in 'field list'
+2025-06-11 14:44:13 - Payment verification failed
